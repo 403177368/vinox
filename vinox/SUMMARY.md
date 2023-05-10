@@ -2,7 +2,8 @@
 
 * [首页](README.md)
 * [代码规范](dai-ma-gui-fan/README.md)
-  * [目录结构](dai-ma-gui-fan/mu-lu-jie-gou.md)
+  * [目录结构](dai-ma-gui-fan/mu-lu-jie-gou/README.md)
+    * [/scripts](dai-ma-gui-fan/mu-lu-jie-gou/scripts.md)
   * [/domains](dai-ma-gui-fan/domains.md)
   * [最佳实践？](dai-ma-gui-fan/zui-jia-shi-jian.md)
   * [问题](dai-ma-gui-fan/wen-ti.md)
