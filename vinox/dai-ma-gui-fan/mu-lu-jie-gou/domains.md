@@ -1,4 +1,4 @@
-# /domains
+# /src/domains
 
 ```yaml
 What is domain?
