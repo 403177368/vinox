@@ -1,7 +1,6 @@
 # Table of contents
 
 * [首页](README.md)
-* [代码规范](dai-ma-gui-fan.md)
 * [代码](dai-ma/README.md)
   * [目录结构](dai-ma/mu-lu-jie-gou.md)
   * [/domains](dai-ma/domains.md)
