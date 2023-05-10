@@ -2,5 +2,5 @@
 layout: editorial
 ---
 
-# 代码规范
+# Copy of 代码规范
 
