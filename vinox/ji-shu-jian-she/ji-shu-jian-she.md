@@ -1,18 +1,21 @@
 # 技术建设
 
+|       |                                                                  |   |
+| ----- | ---------------------------------------------------------------- | - |
+|       | RBAC                                                             |   |
+| next  | 为什么nextjs在build过程中/src/pages目录下的组件文件会报错呢？如何解决？                   |   |
+| mobx  | Mobx与第三方组件配合使用的时候应该注意什么呢？查阅mobx文档可知。                             |   |
+| mobx  | 如何解决一个mobx store里定义的action太多的问题？                                 |   |
+| react | 什么是react fiber？                                                  |   |
+| next  | nextjs中为什么要使用getLayout来实现页面中的公用layout？不用会有什么影响？                  |   |
+| mobx  | <mark style="background-color:green;">redux和mobx有哪些不同？</mark>    |   |
+| react | 列表渲染时的key起什么作用？不设置key的话会怎么样？要点在于虚拟dom节点的比较机制。                    |   |
+|       | <mark style="background-color:green;">computed的比较典型的应用场景？</mark> |   |
+|       | 为什么记录选中某一item的时候要使用id而不是使用对象？                                    |   |
+|       |                                                                  |   |
+
 |             |                                                                                                                                                                                                                                                                                                    |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|             |                                                                                                                                                                                                                                                                                                    |
-| <p><br></p> | RBAC                                                                                                                                                                                                                                                                                               |
-| next        | 为什么nextjs在build过程中/src/pages目录下的组件文件会报错呢？如何解决？                                                                                                                                                                                                                                                     |
-| mobx        | Mobx与第三方组件配合使用的时候应该注意什么呢？查阅mobx文档可知。                                                                                                                                                                                                                                                               |
-| mobx        | 如何解决一个mobx store里定义的action太多的问题？                                                                                                                                                                                                                                                                   |
-| react       | 什么是react fiber？                                                                                                                                                                                                                                                                                    |
-| next        | nextjs中为什么要使用getLayout来实现页面中的公用layout？不用会有什么影响？                                                                                                                                                                                                                                                    |
-| mobx        | <mark style="background-color:green;">redux和mobx有哪些不同？</mark>                                                                                                                                                                                                                                      |
-| react       | 列表渲染时的key起什么作用？不设置key的话会怎么样？要点在于虚拟dom节点的比较机制。                                                                                                                                                                                                                                                      |
-| <p><br></p> | <mark style="background-color:green;">computed的比较典型的应用场景？</mark>                                                                                                                                                                                                                                   |
-| <p><br></p> | 为什么记录选中某一item的时候要使用id而不是使用对象？                                                                                                                                                                                                                                                                      |
 | <p><br></p> | 引用大体积的包时应该注意什么？                                                                                                                                                                                                                                                                                    |
 | <p><br></p> | 网页应用初始化的环节一般要完成哪些操作？                                                                                                                                                                                                                                                                               |
 | <p><br></p> | <mark style="background-color:green;">结构化数据的好处？参考：配置文件、游戏存档</mark>                                                                                                                                                                                                                                 |
