@@ -1,9 +1,11 @@
 # 最佳实践？
 
-|    | Good Cases     | Bad Cases                                              |   |
-| -- | -------------- | ------------------------------------------------------ | - |
-| 命名 | 花一点时间起一个恰当的命名。 | <p></p><ul><li>先随便起一个。</li><li>看到别人已经起好了，照抄。</li></ul> |   |
-|    |                |                                                        |   |
-|    |                |                                                        |   |
-|    |                |                                                        |   |
-|    |                |                                                        |   |
+|    | Good Cases                                  | Bad Cases                                       |                                                                                                                                                                                                                                          |
+| -- | ------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 命名 | 花一点时间起一个恰当的命名。                              | <ul><li>先随便起一个。</li><li>看到别人已经起好了，照抄。</li></ul> | <ul><li>There are only two hard things in Computer Science: <em>cache invalidation and naming things</em>. -- Phil Karlton.</li><li>A bad name will mislead you and stop you from understanding the true meaning of a concept.</li></ul> |
+| 命名 | PascalCase、camelCase、kebab-case、snake\_case | whatever\_Case                                  |                                                                                                                                                                                                                                          |
+|    |                                             |                                                 |                                                                                                                                                                                                                                          |
+|    |                                             |                                                 |                                                                                                                                                                                                                                          |
+|    |                                             |                                                 |                                                                                                                                                                                                                                          |
+|    |                                             |                                                 |                                                                                                                                                                                                                                          |
+|    |                                             |                                                 |                                                                                                                                                                                                                                          |
