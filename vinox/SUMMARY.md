@@ -13,3 +13,5 @@
 * [工具使用](gong-ju-shi-yong/README.md)
   * [Fish-shell](gong-ju-shi-yong/fish-shell.md)
   * [vscode](gong-ju-shi-yong/vscode.md)
+* [技术文档](ji-shu-wen-dang/README.md)
+  * [wxr](ji-shu-wen-dang/wxr.md)
