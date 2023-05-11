@@ -10,6 +10,7 @@
       * [/commonStore /rootStore](dai-ma-gui-fan/mu-lu-jie-gou/src-common/commonstore-rootstore.md)
     * [/src/components](dai-ma-gui-fan/mu-lu-jie-gou/src-components.md)
     * [/src/domains](dai-ma-gui-fan/mu-lu-jie-gou/domains.md)
+    * [/src/pages](dai-ma-gui-fan/mu-lu-jie-gou/src-pages.md)
   * [最佳实践？](dai-ma-gui-fan/zui-jia-shi-jian.md)
   * [问题](dai-ma-gui-fan/wen-ti.md)
 * [技术建设](ji-shu-jian-she/README.md)
