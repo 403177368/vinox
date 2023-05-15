@@ -16,6 +16,7 @@
 * [技术建设](ji-shu-jian-she/README.md)
   * [技术建设](ji-shu-jian-she/ji-shu-jian-she.md)
   * [前端技术提升](ji-shu-jian-she/qian-duan-ji-shu-ti-sheng.md)
+  * [编程技巧](ji-shu-jian-she/bian-cheng-ji-qiao.md)
   * [技术选型：React & Mobx](ji-shu-jian-she/dui-react-kuang-jia-de-ping-jia.md)
   * [小程序框架调研](ji-shu-jian-she/xiao-cheng-xu-kuang-jia-tiao-yan.md)
     * [小程序框架比较](ji-shu-jian-she/xiao-cheng-xu-kuang-jia-tiao-yan/xiao-cheng-xu-kuang-jia-bi-jiao.md)
