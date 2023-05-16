@@ -34,3 +34,39 @@ react唯一超过vue的优点是它对ts的支持比较好，vue的模板对ts�
 无论从写法还是性能上，react都没有“非用不可”的优势。
 
 vue也吸收了react框架中好的部分，比如虚拟dom、jsx等等。
+
+## 一些非常容易产生bug的写法
+
+```typescript
+const Header = observer(({
+  count,
+}: {
+  count: number;
+}) => {
+  const [num, setNum] = useState<number>(0);
+
+  const local = useLocalObservable(() => ({
+    get countStr() {
+      return `${count}`;
+    },
+    get totalCount() {
+      return count + num;
+    },
+    onButtonClicked() {
+     console.log(count);
+    },
+  }));
+
+  useEffect(() => {
+    setInterval(() => {
+      console.log(num);
+      setNum((v) => v + 1);
+    }, 1000);
+    window.addEventListener('resize', () => {
+      console.log(num);
+    });
+  }, []);
+
+  return <div onClick={() => setNum(num + 1)}>{num}</div>;
+});
+```
