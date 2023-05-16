@@ -1,5 +1,6 @@
 # /src/domains
 
+{% code fullWidth="true" %}
 ```yaml
 What is domain?
   Posts related:
@@ -30,6 +31,7 @@ What is domain?
         productInfo()
         productCreate()
 ```
+{% endcode %}
 
 <mark style="background-color:green;">给domain命名的原则：</mark>
 
