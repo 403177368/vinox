@@ -31,6 +31,11 @@ What is domain?
         productCreate()
 ```
 
+<mark style="background-color:green;">给domain命名的原则：</mark>
+
+* <mark style="background-color:green;">可数名词，单数。</mark>
+* <mark style="background-color:green;">有id字段，可以存储在后端数据库的一张表里。</mark>
+
 | 英文                   | 中文     | 备注                                                                                                                                        |
 | -------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | business             | 商家     | A business is an organization which produces and sells goods or which provides a service.                                                 |
