@@ -70,3 +70,15 @@ const Header = observer(({
   return <div onClick={() => setNum(num + 1)}>{num}</div>;
 });
 ```
+
+## 建议解决方案
+
+```typescript
+export default observer(() => {
+  const local = useLocalObservable(() => ({
+    fn: _.debounce(() => {
+      // ...
+    }, 300),
+  }));
+});
+```
