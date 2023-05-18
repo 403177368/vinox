@@ -77,6 +77,8 @@ const Header = observer(({
 
 ### 建议解决方案
 
+{% embed url="https://mobx.js.org/react-optimizations.html" %}
+
 ```typescript
 export default observer(({
   getCount,
