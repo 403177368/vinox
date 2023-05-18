@@ -35,7 +35,11 @@ react唯一超过vue的优点是它对ts的支持比较好，vue的模板对ts�
 
 vue也吸收了react框架中好的部分，比如虚拟dom、jsx等等。
 
-## 一些非常容易产生bug的写法
+## 闭包陷阱
+
+[https://betterprogramming.pub/understanding-the-closure-trap-of-react-hooks-6c560c408cde](https://betterprogramming.pub/understanding-the-closure-trap-of-react-hooks-6c560c408cde)
+
+### 一些非常容易产生bug的写法
 
 ```typescript
 const Header = observer(({
@@ -71,14 +75,26 @@ const Header = observer(({
 });
 ```
 
-## 建议解决方案
+### 建议解决方案
 
 ```typescript
-export default observer(() => {
+export default observer(({
+  getCount,
+}: {
+  getCount(): number;
+}) => {
   const local = useLocalObservable(() => ({
+    get countStr() {
+      return `${getCount()}`;
+    },
+    onButtonClicked() {
+      console.log(getCount());
+    },
     fn: _.debounce(() => {
       // ...
     }, 300),
   }));
+  
+  return <div onClick={local.onButtonClicked} />
 });
 ```
