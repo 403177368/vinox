@@ -7,3 +7,7 @@
 下一个页面的展示速度更快。
 
 ## 为什么要使用layout
+
+## NextJS项目在vscode编辑器中编辑，编辑器中的eslint校验经常阻塞怎么办？
+
+配置自定义快捷键组合进行eslint autofix，如command+ctrl+s。
