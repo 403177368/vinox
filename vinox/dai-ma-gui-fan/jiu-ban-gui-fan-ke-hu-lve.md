@@ -75,3 +75,21 @@
     非必要情况下，自定义的组件里禁止使用this.𝑒𝑚𝑖𝑡，而应该使用𝑝𝑟𝑜𝑝𝑠:𝑠𝑜𝑚𝑒𝐹𝑢𝑛𝑐𝑡𝑖𝑜𝑛𝑁𝑎𝑚𝑒:𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑:𝑡𝑟𝑢𝑒，把方法从上层传入组件内使用，规避emit这种过于灵活的使用。
 ```
 {% endcode %}
+
+Specifications\
+规范 <a href="#id-dai-ma-gui-fan-specifications-gui-fan" id="id-dai-ma-gui-fan-specifications-gui-fan"></a>
+---------------------------------------------------------------------------------------------------------
+
+Vue Single File Component
+
+* The name of a vue component file must be uppercased.\
+  Vue组件文件的文件名必须为大写。
+* The style tag should be placed at top of the file. All css/less code must be wrapped by a class with the same name of the file.\
+  Style标签应该被放置在文件顶部。
+* The template tag should be placed at middle of the file.
+* The script tag should be placed at bottom of the file.\
+  Script标签应该被放置在文件底部。
+* Order of properties of vue component configuration object:\
+  name, components, provide, inject, props, data, computed, watch, created, mounted, methods,\
+  Vue组件配置对象属性的顺序：\
+  name, components, provide, inject, props, data, computed, watch, created, mounted, methods,
