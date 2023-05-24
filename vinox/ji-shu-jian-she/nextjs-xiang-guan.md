@@ -10,6 +10,8 @@
 
 ## 为什么要使用layout
 
+保证路由间切换的时候公共layout不会重新渲染。
+
 ## Reasons for using express in a NextJS project
 
 To gain control of full backend abilities.
