@@ -9,7 +9,7 @@
       * [/@vinox](dai-ma-gui-fan/mu-lu-jie-gou/src-common/vinox.md)
       * [/commonStore /rootStore](dai-ma-gui-fan/mu-lu-jie-gou/src-common/commonstore-rootstore.md)
     * [/src/components](dai-ma-gui-fan/mu-lu-jie-gou/src-components.md)
-    * [/src/domains](dai-ma-gui-fan/mu-lu-jie-gou/src-domains/README.md)
+    * [/src/domains](dai-ma-gui-fan/mu-lu-jie-gou/domains.md)
       * [Domain Oriented API Design](dai-ma-gui-fan/mu-lu-jie-gou/src-domains/domain-oriented-api-design.md)
     * [/src/pages](dai-ma-gui-fan/mu-lu-jie-gou/src-pages.md)
     * [.eslintrc.js](dai-ma-gui-fan/mu-lu-jie-gou/.eslintrc.js.md)
