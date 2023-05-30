@@ -21,7 +21,7 @@ async funciton a() {
   await login().catch(e => {
     console.log('登录失败');
   });
-  // These code will run even if the login is failed
+  // These code will run even if the login failed
   // We don't want to see such things happen
   doSomethingAfterLogin();
 }
