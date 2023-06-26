@@ -2,10 +2,33 @@
 
 Rules about error handling:
 
-* Only catch errors when they must be caught.
-* Do not omit error message.
+* Errors are good.\
+  Throw an error if something unexpected happens.\
+  Most times we want an error to stop subsequent procedures.
+* **Only** catch errors when they must be caught.
+* **Do not** catch error when it is not necessary. Do not omit error message.
 
-Bad examples:
+## Good examples:
+
+```typescript
+async function validate(value: string) {
+  if (typeof value !== 'string') {
+    throw new Error('Expected type of value to be string but got ' + typeof value);
+  }
+  ...
+}
+
+async function a() {
+  await login().catch(e => {
+    message.error(e.message);
+    throw new Error(e.message);
+  });
+  
+  doSomethingAfterLogin();
+}
+```
+
+## Bad examples:
 
 ```typescript
 // The error is omitted silently, thus you will never know the reason of the error
@@ -33,18 +56,5 @@ async funciton a() {
 const [error, res] = await doSomething();
 if (error) {
   // ...
-}
-```
-
-Good example:
-
-```typescript
-async function a() {
-  await login().catch(e => {
-    message.error(e.message);
-    throw new Error(e.message);
-  });
-  
-  doSomethingAfterLogin();
 }
 ```
