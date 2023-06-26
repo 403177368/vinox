@@ -31,6 +31,7 @@
   * [移动端网页开发注意事项](ji-shu-jian-she/yi-dong-duan-wang-ye-kai-fa-zhu-yi-shi-xiang.md)
   * [后端项目目录结构](ji-shu-jian-she/hou-duan-xiang-mu-mu-lu-jie-gou.md)
   * [Mechanisms of VueJS](ji-shu-jian-she/mechanisms-of-vuejs.md)
+  * [Pointer Events](ji-shu-jian-she/pointer-events.md)
   * [前端静态资源的部署](ji-shu-jian-she/qian-duan-jing-tai-zi-yuan-de-bu-shu.md)
 * [工具使用](gong-ju-shi-yong/README.md)
   * [Fish-shell](gong-ju-shi-yong/fish-shell.md)
