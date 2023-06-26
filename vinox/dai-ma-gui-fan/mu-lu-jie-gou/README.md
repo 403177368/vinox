@@ -5,33 +5,33 @@
   rebase.js
   deploy.js
 /src
-/api
-/common
-  commonStore.ts
-  common.ts
-  common.less
-/components
-  /SomeHeader
-    index.tsx
-    index.less
-    a.png
-    b.svg
-  CommonExposure.tsx
-/domains
-  /user
-    userService.ts
-  /post
-    postService.ts
-    PostCard.tsx
-/pages
-  /page-a
-    /router
-    /store
-      index.ts
-      index.html
-/utils
-  domUtil.ts
-  webUtil.ts
+  /api
+  /common
+    commonStore.ts
+    common.ts
+    common.less
+  /components
+    /SomeHeader
+      index.tsx
+      index.less
+      a.png
+      b.svg
+    CommonExposure.tsx
+  /domains
+    /user
+      userService.ts
+    /post
+      postService.ts
+      PostCard.tsx
+  /pages
+    /page-a
+      /router
+      /store
+        index.ts
+        index.html
+  /utils
+    domUtil.ts
+    webUtil.ts
 /.vscode
   settings.json
 .stylelintrc.js
