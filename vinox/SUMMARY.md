@@ -11,7 +11,7 @@
     * [/src/components](dai-ma-gui-fan/mu-lu-jie-gou/src-components.md)
     * [/src/domains](dai-ma-gui-fan/mu-lu-jie-gou/domains.md)
       * [Domain Driven Design / DDD](dai-ma-gui-fan/mu-lu-jie-gou/src-domains/domain-driven-design-ddd.md)
-      * [Domain](dai-ma-gui-fan/mu-lu-jie-gou/src-domains/domain.md)
+      * [Domain Objects](dai-ma-gui-fan/mu-lu-jie-gou/src-domains/domain-objects.md)
       * [Domain Oriented API Design](dai-ma-gui-fan/mu-lu-jie-gou/src-domains/domain-oriented-api-design.md)
     * [/src/pages](dai-ma-gui-fan/mu-lu-jie-gou/src-pages.md)
     * [.eslintrc.js](dai-ma-gui-fan/mu-lu-jie-gou/.eslintrc.js.md)
