@@ -23,13 +23,6 @@
 
 {% code fullWidth="true" %}
 ```yaml
-What is domain?
-  Posts related:
-    https://docs.github.com/en/graphql/reference/objects
-    https://en.wikipedia.org/wiki/Domain-driven_design
-    Package by feature, not layer: http://www.javapractices.com/topic/TopicAction.do?Id=205
-  简单的判断方法：一个domainObject必有id字段，对应数据库的一张数据表中的某条记录。如果一个对象没有id，那么它大概率是附属于某一domainObject下的一个属性值。
-
 /domains
   The directory contains domain related files, such as domain type class files and domain related components.
   强化domain概念，新需求均围绕domains文件夹展开。
