@@ -1,5 +1,7 @@
 # Domain Driven Design / DDD
 
+**DDD is a design pattern for business system.**
+
 ## Posts about DDD
 
 {% embed url="https://en.wikipedia.org/wiki/Domain-driven_design" %}
