@@ -12,7 +12,7 @@
 
 ## How to Name a Domain?
 
-* A **domain name** must be singular form of countable noun.
+* A **domain name** must be **singular form of countable noun**.
 * A **domain object** must has \`id\` field.
 * A domain usually has a database table to store its domain objects.
 
