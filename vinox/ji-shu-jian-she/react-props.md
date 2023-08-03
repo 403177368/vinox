@@ -25,4 +25,15 @@ function Parent() {
     </div>
   );
 }
+
+// Pass function as prop
+function Parent() {
+  const [title] = useState(() => 'Hello world');
+
+  return (
+    <div>
+      <Layout renderHeader={() => <Header title={title} />} />
+    </div>
+  );
+}
 ```
