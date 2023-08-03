@@ -29,6 +29,7 @@
     * [What Is Programming?](ji-shu-jian-she/bian-cheng-ji-qiao/what-is-programming.md)
     * [Error Handling](ji-shu-jian-she/bian-cheng-ji-qiao/error-handling.md)
   * [技术选型：React & Mobx](ji-shu-jian-she/dui-react-kuang-jia-de-ping-jia.md)
+  * [React Props](ji-shu-jian-she/react-props.md)
   * [NextJS相关](ji-shu-jian-she/nextjs-xiang-guan.md)
   * [小程序框架调研](ji-shu-jian-she/xiao-cheng-xu-kuang-jia-tiao-yan.md)
     * [小程序框架比较](ji-shu-jian-she/xiao-cheng-xu-kuang-jia-tiao-yan/xiao-cheng-xu-kuang-jia-bi-jiao.md)
