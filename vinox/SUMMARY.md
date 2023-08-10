@@ -40,6 +40,7 @@
   * [Pointer Events](ji-shu-jian-she/pointer-events.md)
   * [Circular Dependency](ji-shu-jian-she/circular-dependency.md)
   * [API封装的原则](ji-shu-jian-she/api-feng-zhuang-de-yuan-ze.md)
+  * [UI Terms](ji-shu-jian-she/ui-terms.md)
   * [前端静态资源的部署](ji-shu-jian-she/qian-duan-jing-tai-zi-yuan-de-bu-shu.md)
 * [工具使用](gong-ju-shi-yong/README.md)
   * [Fish-shell](gong-ju-shi-yong/fish-shell.md)
