@@ -40,7 +40,7 @@
 13. nextjs中为什么要使用getLayout来实现页面中的公用layout？不用会有什么影响？\
     如果在nextjs项目的/src/pages目录下放了一些非page的组件，为什么在build过程中会报错呢？如何解决？
 14. 列表渲染时的key起什么作用？不设置key的话会怎么样？要点在于虚拟dom节点的比较机制。\
-    <mark style="background-color:green;">computed的比较典型的应用场景？</mark>
+    <mark style="background-color:green;">computed的比较典型的应用场景？</mark>[<mark style="background-color:green;">参考</mark>](computed-de-shi-yong.md)
 15. 为什么不推荐使用px2rem自动把css中的px都转换成rem？带来的问题比解决的问题更多。
 
     为什么不推荐使用vw作为统一的长度单位？
