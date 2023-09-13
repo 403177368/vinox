@@ -9,17 +9,19 @@ React本身存在的问题：
 5. 状态和方法需要零散地通过props层层传递给子组件，难以维护。当项目特别复杂时尤甚。
 6. 对 setInterval window.addEventListener 这种功能支持度不好，需要小心避免踩坑。
 
-使用mobx的理由：
+<mark style="color:green;">使用mobx的理由：</mark>
 
-1. 完整的computed功能。
-2. 完整的依赖追踪机制，以组件为单位重新渲染，基本不需要再手动进行性能优化。
-3. 完整的store功能，避免层层传递props。
+1. <mark style="color:green;">完整的computed功能。</mark>
+2. <mark style="color:green;">完整的依赖追踪机制，以组件为单位重新渲染，基本不需要再手动进行性能优化。</mark>
+3. <mark style="color:green;">完整的store功能，避免层层传递props。</mark>
 
-Advantages of mobx:
+<mark style="color:green;">Advantages of mobx:</mark>
 
-* Automatic dependency tracking.
-* True \`computed\` functionality.
-* Better performance?
+* <mark style="color:green;">Automatic dependency tracking.</mark>
+* <mark style="color:green;">True \`computed\` functionality.</mark>
+* <mark style="color:green;">Better performance?</mark>
+
+<table data-full-width="true"><thead><tr><th width="299.3333333333333">Next.js</th><th width="324">Vite</th><th></th></tr></thead><tbody><tr><td><ul><li><mark style="color:green;">能进行服务端渲染，动态输出html，由此“前端”包含了后端服务的“前端”。</mark></li><li><mark style="color:green;">可在一个nextjs服务内开发多个project，减少仓库数目，降低维护成本。</mark></li></ul></td><td><ul><li><mark style="color:green;">配置简洁，vue官方维护的项目文档质量都不错。</mark></li></ul></td><td></td></tr><tr><td><ul><li><mark style="color:red;">API不太稳定，13版本断崖式升级，团队责任心成迷，issue处理不及时。</mark></li><li><mark style="color:red;">文档质量一般。</mark></li></ul></td><td><ul><li><mark style="color:red;">需要使用vite-legacy插件兼容不支持es-module的浏览器。</mark></li></ul></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
 
 ## useCallback
 
