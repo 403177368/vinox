@@ -50,5 +50,5 @@
   * [Fish-shell](gong-ju-shi-yong/fish-shell.md)
   * [n](gong-ju-shi-yong/n.md)
   * [vscode](gong-ju-shi-yong/vscode.md)
-* [技术文档](ji-shu-wen-dang/README.md)
-  * [wxr](ji-shu-wen-dang/wxr.md)
+* [👨⚕ 疑难杂症](yi-nan-za-zheng/README.md)
+  * [el-select](yi-nan-za-zheng/el-select.md)
