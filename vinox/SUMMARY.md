@@ -1,7 +1,7 @@
 # Table of contents
 
 * [🏠 首页](README.md)
-* [⚠ 代码规范⚠️](dai-ma-gui-fan/README.md)
+* [⚠ 代码规范](dai-ma-gui-fan/README.md)
   * [📂 目录结构](dai-ma-gui-fan/mu-lu-jie-gou/README.md)
     * [/scripts](dai-ma-gui-fan/mu-lu-jie-gou/scripts.md)
     * [/src/api](dai-ma-gui-fan/mu-lu-jie-gou/src-api.md)
