@@ -27,3 +27,9 @@ To lower the burden of development, it is recommended to use one service to serv
 
 
 ## Catalyze-admin
+
+### Permission
+
+No admin system can bypass permissions. Permissions are organized in a tree structure.
+
+***
