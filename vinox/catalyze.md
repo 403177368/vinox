@@ -24,7 +24,14 @@ To lower the burden of development, it is recommended to use one service to serv
 
 ### Navigating
 
+Various navigating needs can all be satisfied in one single \`navigate\` function, no matter the target is a web page under the same or another origin, a route of current SPA, or a native client page, in current window or a new window.
 
+```typescript
+navigate({
+  originId: 'google.com',
+  query: {},
+});
+```
 
 ## Catalyze-admin
 
