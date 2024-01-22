@@ -33,6 +33,16 @@ navigate({
 });
 ```
 
+## Catalyze-react
+
+### Internationalization and Localization
+
+Popular i18n solutions such as react-i18next and vue-i18n have a bad support for TypeScript.
+
+## Catalyze-next
+
+
+
 ## Catalyze-admin
 
 ### Permission
