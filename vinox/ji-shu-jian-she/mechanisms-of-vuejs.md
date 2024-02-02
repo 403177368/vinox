@@ -38,5 +38,3 @@ When Vue.js initializes a component, it recursively converts all of its `data` p
 
     Through these steps, Vue sets up a reactive system where `dep` acts as a hub for dependencies (watchers) that should react to changes in the data properties.
 
-###
-
