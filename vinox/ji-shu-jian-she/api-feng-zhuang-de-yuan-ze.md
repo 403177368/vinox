@@ -22,3 +22,22 @@ export function openWebView({
   }
 }
 ```
+
+#### API Design Principles
+
+**Single Responsibility**
+
+Each function should have a single responsibility. Encapsulate functionalities separately to maintain a clear separation of concerns.
+
+**Strong Typing**
+
+Ensure that the function parameters have strict type definitions. This will help to catch errors at compile time and enhance code readability and maintainability.
+
+**Internal Logic Handling**
+
+All the internal logic should be handled within the function itself to avoid exposing implementation details and to provide a clean, understandable API surface.
+
+**Version Management Inside Function**
+
+Handle version compatibility checks inside the function to ensure that the API consumers don't have to deal with version logic in their codebases.
+
