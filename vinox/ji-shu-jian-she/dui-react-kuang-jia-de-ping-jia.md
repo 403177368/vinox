@@ -9,6 +9,23 @@ React本身存在的问题：
 5. 状态和方法需要零散地通过props层层传递给子组件，难以维护。当项目特别复杂时尤甚。
 6. 对 setInterval window.addEventListener 这种功能支持度不好，需要小心避免踩坑。
 
+#### Disadvantages of React
+
+React, while a popular front-end framework, does have its pain points:
+
+* **Basic API Offering**: React's APIs are seen as too elemental, leaving developers to encapsulate and solve for common functionality on their own.
+* **Verbose State Management**: The `useState` hook can result in verbose and loose code, particularly in complex components.
+* **Lack of Computed Features**: React does not offer an out-of-the-box `computed` functionality that is as powerful as some other frameworks, which can streamline state management.
+* **No Dependency Tracking**: Without built-in dependency tracking, developers often have to resort to manual optimizations like `React.memo`, which can be cumbersome and error-prone.
+* **Prop Drilling**: State and methods sometimes need to be passed down multiple levels through props, which can quickly become hard to maintain in large applications.
+* **Poor Support for Certain Browser APIs**: Using browser APIs such as `setInterval` and `window.addEventListener` can be tricky in React, requiring caution to avoid common pitfalls.
+* **Server-Side Rendering Complexity**: Although possible, server-side rendering in React can be complex and may require additional configuration and handling.
+* **API Stability**: React's API changes, like the version 13 upgrade, can be disruptive and may indicate less stability in long-term projects.
+* **Documentation Quality**: The inconsistency in the quality of React's documentation can be a challenge for some developers.
+* **Closure Traps with Hooks**: Misusing React's hooks, especially `useEffect`, can lead to closure-related bugs that are hard to diagnose and fix.
+
+These challenges may steer developers towards alternatives like MobX or Vue, which attempt to address some of React's shortcomings. However, React continues to be widely used due to its strong community, regular updates, and integration with other tools and libraries in the JavaScript ecosystem.
+
 <mark style="color:green;">使用mobx的理由：</mark>
 
 1. <mark style="color:green;">完整的computed功能。</mark>
