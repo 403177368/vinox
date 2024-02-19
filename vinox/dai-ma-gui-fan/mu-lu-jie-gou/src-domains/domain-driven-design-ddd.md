@@ -10,11 +10,14 @@
 
 {% embed url="http://www.javapractices.com/topic/TopicAction.do?Id=205" %}
 
-## How to Name a Domain Object?
+### Entity
 
-* A **domain object name** must be **singular form of countable noun**.
-* A **domain object** must has \`id\` field.
-* A domain object class usually has a database table to store its domain objects.
+
+
+## How to Name an entity?
+
+* An **entity name** must be **singular form of countable noun**.
+* An **entity object** must has \`id\` field.
 
 ### Examples
 
