@@ -3,8 +3,8 @@
 ## Folder Structure
 
 * /domains[^1]
-  * /domainTypes.ts
   * /post
+    * postTypes.ts
     * /PostCard.tsx
     * /PostEditor.vue
     * /postService.ts
@@ -12,6 +12,7 @@
       * postList()
       * postCreate()
   * /product
+    * productTypes.ts
     * /productService.ts
       * productInfo()
       * productList()
