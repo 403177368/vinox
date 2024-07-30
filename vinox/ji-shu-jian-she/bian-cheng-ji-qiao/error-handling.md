@@ -1,5 +1,7 @@
 # Error Handling
 
+## Intro
+
 Rules about error handling:
 
 * Errors are good.\
@@ -58,3 +60,7 @@ if (error) {
   // ...
 }
 ```
+
+## References
+
+{% embed url="https://medium.com/ovrsea/power-up-your-node-js-debugging-and-error-handling-with-the-new-error-cause-feature-4136c563126a" %}
