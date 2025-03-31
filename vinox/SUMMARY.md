@@ -54,6 +54,7 @@
   * [Admin Terms](ji-shu-jian-she/admin-terms.md)
   * [前端静态资源的部署](ji-shu-jian-she/qian-duan-jing-tai-zi-yuan-de-bu-shu.md)
   * [CDN](ji-shu-jian-she/cdn.md)
+  * [使用JS进行跨端开发简介](ji-shu-jian-she/shi-yong-js-jin-xing-kua-duan-kai-fa-jian-jie.md)
 * [🛠️ 工具使用](gong-ju-shi-yong/README.md)
   * [Fish-shell](gong-ju-shi-yong/fish-shell.md)
   * [n](gong-ju-shi-yong/n.md)
